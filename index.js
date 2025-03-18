@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Crown Linguistics & Bloodworth Enterprises</title>
+        <title>Crown Linguistics</title>
         <meta name="description" content="Professional Translation Services & Corporate Info" />
       </Head>
 
@@ -17,7 +17,7 @@ export default function Home() {
             <a href="#services" className="px-3 hover:text-white">Services</a>
             <a href="#languages" className="px-3 hover:text-white">Languages</a>
             <a href="#reviews" className="px-3 hover:text-white">Reviews</a>
-            <a href="#bloodworth" className="px-3 hover:text-white">Bloodworth</a>
+            <a href="#contact" className="px-3 hover:text-white">Contact</a>
           </div>
         </div>
       </nav>
@@ -36,7 +36,7 @@ export default function Home() {
         <section id="about" className="min-h-screen p-10 bg-black text-gray-200">
           <h2 className="text-4xl font-bold">About Crown Linguistics</h2>
           <p className="mt-4 text-lg">
-            Crown Linguistics provides top-tier translation services to ensure your message is clear in any language.
+            Crown Linguistics, a division of Bloodworth Enterprises, is dedicated to providing top-notch translation services. Our mission is to bridge language barriers and ensure clear, accurate communication across the globe. With a team of professional linguists, we guarantee high-quality translations for all your needs, whether for personal, business, or technical purposes. We pride ourselves on our attention to detail and our commitment to excellence.
           </p>
         </section>
 
@@ -91,12 +91,19 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Bloodworth Enterprises Section */}
-        <section id="bloodworth" className="min-h-screen p-10 bg-black text-gray-200">
-          <h2 className="text-4xl font-bold">Bloodworth Enterprises</h2>
+        {/* Contact Section */}
+        <section id="contact" className="min-h-screen p-10 bg-black text-gray-200">
+          <h2 className="text-4xl font-bold">Contact Us</h2>
           <p className="mt-4 text-lg">
-            Learn more about Bloodworth Enterprises, the parent company powering innovative projects.
+            We would love to hear from you. Reach out to us through any of the following methods:
           </p>
+          <ul className="mt-4 list-disc list-inside">
+            <li>Email: <a href="mailto:info@crownlinguistics.com" className="text-blue-400 hover:underline">info@crownlinguistics.com</a></li>
+            <li>Support: <a href="mailto:support@crownlinguistics.com" className="text-blue-400 hover:underline">support@crownlinguistics.com</a></li>
+            <li>Personal: <a href="mailto:bloodworth@crownlinguistics.com" className="text-blue-400 hover:underline">bloodworth@crownlinguistics.com</a></li>
+            <li>Phone: 785-871-7256</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/emanuel-bloodworth-26b872355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-blue-400 hover:underline">Emanuel Bloodworth</a></li>
+          </ul>
         </section>
       </main>
 
