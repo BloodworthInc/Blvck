@@ -11,30 +11,30 @@ export default function Home() {
       {/* Navbar */}
       <nav className="fixed w-full bg-black text-gray-400 p-4 z-10">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="font-bold text-xl">Crown Linguistics</div>
+          <div className="font-bold text-xl text-white">Crown Linguistics</div>
           <div>
-            <a href="#about" className="px-3 hover:text-white">About</a>
-            <a href="#services" className="px-3 hover:text-white">Services</a>
-            <a href="#languages" className="px-3 hover:text-white">Languages</a>
-            <a href="#reviews" className="px-3 hover:text-white">Reviews</a>
-            <a href="#contact" className="px-3 hover:text-white">Contact</a>
+            <a href="#about" className="px-3 hover:text-white transition duration-300">About</a>
+            <a href="#services" className="px-3 hover:text-white transition duration-300">Services</a>
+            <a href="#languages" className="px-3 hover:text-white transition duration-300">Languages</a>
+            <a href="#reviews" className="px-3 hover:text-white transition duration-300">Reviews</a>
+            <a href="#contact" className="px-3 hover:text-white transition duration-300">Contact</a>
           </div>
         </div>
       </nav>
 
-      <main className="pt-20">
+      <main className="pt-20 bg-gray-900 text-gray-200">
         {/* Hero Section */}
-        <section id="hero" className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
-          <h1 className="text-5xl font-bold">Welcome to Crown Linguistics</h1>
+        <section id="hero" className="min-h-screen flex flex-col justify-center items-center">
+          <h1 className="text-5xl font-bold text-white">Welcome to Crown Linguistics</h1>
           <p className="mt-4 text-xl">Professional Translation Services</p>
-          <button className="mt-6 px-6 py-3 bg-gray-400 text-black font-bold rounded hover:bg-gray-300">
+          <button className="mt-6 px-6 py-3 bg-gray-700 text-white font-bold rounded hover:bg-gray-600 transition duration-300">
             Learn More
           </button>
         </section>
 
         {/* About Section */}
-        <section id="about" className="min-h-screen p-10 bg-black text-gray-200">
-          <h2 className="text-4xl font-bold">About Crown Linguistics</h2>
+        <section id="about" className="min-h-screen p-10">
+          <h2 className="text-4xl font-bold text-white">About Crown Linguistics</h2>
           <p className="mt-4 text-lg">
             Crown Linguistics, a division of Bloodworth Enterprises, is dedicated to providing top-notch translation services. Our mission is to bridge language barriers and ensure clear, accurate communication across the globe. With a team of professional linguists, we guarantee high-quality translations for all your needs, whether for personal, business, or technical purposes. We pride ourselves on our attention to detail and our commitment to excellence.
           </p>
@@ -60,8 +60,8 @@ export default function Home() {
         </section>
 
         {/* Supported Languages Section */}
-        <section id="languages" className="min-h-screen p-10 bg-black text-gray-200">
-          <h2 className="text-4xl font-bold">Supported Languages</h2>
+        <section id="languages" className="min-h-screen p-10">
+          <h2 className="text-4xl font-bold text-white">Supported Languages</h2>
           <p className="mt-4 text-lg">
             Choose from a wide range of languages to suit your needs.
           </p>
@@ -92,8 +92,8 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="min-h-screen p-10 bg-black text-gray-200">
-          <h2 className="text-4xl font-bold">Contact Us</h2>
+        <section id="contact" className="min-h-screen p-10">
+          <h2 className="text-4xl font-bold text-white">Contact Us</h2>
           <p className="mt-4 text-lg">
             We would love to hear from you. Reach out to us through any of the following methods:
           </p>
@@ -107,7 +107,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="bg-gray-900 text-gray-400 p-4 text-center">
+      <footer className="bg-black text-gray-400 p-4 text-center">
         © {new Date().getFullYear()} Crown Linguistics & Bloodworth Enterprises. All rights reserved.
       </footer>
     </>
